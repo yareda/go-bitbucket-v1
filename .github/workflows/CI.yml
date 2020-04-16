@@ -1,4 +1,4 @@
-name: CI
+name: Build and test
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 jobs:
 
   build:
-    name: Build & Test
+    name: go build test
     runs-on: ubuntu-latest
     steps:
 
